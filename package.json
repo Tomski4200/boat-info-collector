@@ -1,0 +1,23 @@
+{
+  "name": "boat-info-collector",
+  "version": "1.0.0",
+  "description": "A tool to collect information about boat types using the Perplexity API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "perplexity",
+    "api",
+    "boats",
+    "spreadsheet"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "exceljs": "^4.4.0",
+    "yargs": "^17.7.2"
+  }
+}
